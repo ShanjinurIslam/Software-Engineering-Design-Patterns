@@ -37,7 +37,7 @@ public class OrderParser {
                 if(value.equals("HoneyMustard")){
                     burgerBuilder.setSause(new HoneyMustard());
                 }
-                if(value.equals("Double")){
+                if(value.equals("Naga")){
                     burgerBuilder.setSause(new Naga());
                 }
             }
