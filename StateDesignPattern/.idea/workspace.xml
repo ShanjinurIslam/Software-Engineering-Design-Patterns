@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aac413a-35f8-44e9-821c-d1591185e5d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AC/AC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AC/Remote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuilderPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BuilderPattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuilderPattern/src/Takeout/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BuilderPattern/src/Takeout/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuilderPattern/src/Takeout/OrderParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BuilderPattern/src/Takeout/OrderParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPattern/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +15,7 @@
     <session id="-1861746960">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -43,15 +36,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1085" />
-          <entry key="txt" value="37" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1085" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -115,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AC/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -254,7 +251,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537796535379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537796649366" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -303,7 +300,7 @@
       <workItem from="1532766808105" duration="9000" />
       <workItem from="1532769768741" duration="253000" />
       <workItem from="1534067791661" duration="757000" />
-      <workItem from="1537796018349" duration="511000" />
+      <workItem from="1537796018349" duration="1074000" />
     </task>
     <task id="LOCAL-00001" summary="Classes added for takeaway scenerio">
       <created>1534068461005</created>
@@ -312,15 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534068461005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AC scenerio added">
+      <created>1537796570195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537796570195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1530000" />
+    <option name="totallyTimeSpent" value="2093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,9 +332,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -359,7 +363,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes added for takeaway scenerio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes added for takeaway scenerio" />
+    <MESSAGE value="AC scenerio added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AC scenerio added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/VendingMachine/DeliveryState.java" />
@@ -437,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AC/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
